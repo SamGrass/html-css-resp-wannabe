@@ -128,19 +128,29 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+/* regole layout */
+
+ .container {
+    max-width: 100%;
+}
+
 /* breakpoint tablet */
 
 @media screen and (max-width:768px) {
     .container {
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
     }
 }
 
 /* brakpoint smartphone */
 
+
 @media screen and (max-width:480px) {
     .container {
-        width: 480px;
+        width: 100%;
+        max-width: 480px;
     }
     .row {
         flex-wrap: wrap;
