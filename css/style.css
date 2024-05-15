@@ -136,4 +136,19 @@ img {
     }
 }
 
+/* brakpoint smartphone */
 
+@media screen and (max-width:480px) {
+    .container {
+        width: 480px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .row .col {
+        width: 100%;
+        margin-bottom: 6rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
